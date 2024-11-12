@@ -24,8 +24,8 @@
         <div class="p-6 rounded-xl bg-white/5 backdrop-blur-sm border border-purple-500/20">
             <h3 class="text-2xl font-bold text-purple-100 mb-4">Results</h3>
             <div id="number-info" class="space-y-4">
-                <div class="text-lg pb-4"><span class="text-purple-300">Number (n):</span> {{ $request->n }}</div>
-                <span class="text-purple-300 text-xl">Links:</span>
+                <div class="text-lg pb-4"><span class="text-purple-300">Number (n):</span> {{ number_format(intval($request->n)) }}</div>
+                <span class="text-purple-300 text-xl font-semibold">Links</span>
                 <hr class="border-purple-500/20">
                 <div class="text-lg space-y-4">
                     <a href="https://www.mersenne.org/report_exponent/?exp_lo={{ $request->n }}" class="block text-purple-400 hover:underline" target="_blank">mersenne.org (Common)</a>

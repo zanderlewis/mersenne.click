@@ -1,343 +1,343 @@
 [
     {
         "rank": "1",
-        "prime": "2^2 - 1",
+        "exponent": "2",
         "discovered_by": "Ancient Greek mathematicians",
-        "date": "c. 500 BCE",
+        "date": "500 BCE",
         "digits": "1"
     },
     {
         "rank": "2",
-        "prime": "2^3 - 1",
+        "exponent": "3",
         "discovered_by": "Ancient Greek mathematicians",
-        "date": "c. 500 BCE",
+        "date": "500 BCE",
         "digits": "1"
     },
     {
         "rank": "3",
-        "prime": "2^5 - 1",
+        "exponent": "5",
         "discovered_by": "Ancient Greek mathematicians",
-        "date": "c. 275 BCE",
+        "date": "275 BCE",
         "digits": "2"
     },
     {
         "rank": "4",
-        "prime": "2^7 - 1",
+        "exponent": "7",
         "discovered_by": "Ancient Greek mathematicians",
-        "date": "c. 275 BCE",
+        "date": "275 BCE",
         "digits": "3"
     },
     {
         "rank": "5",
-        "prime": "2^13 - 1",
+        "exponent": "13",
         "discovered_by": "Anonymous",
         "date": "1456",
         "digits": "4"
     },
     {
         "rank": "6",
-        "prime": "2^17 - 1",
+        "exponent": "17",
         "discovered_by": "Pietro Cataldi",
         "date": "1588",
         "digits": "6"
     },
     {
         "rank": "7",
-        "prime": "2^19 - 1",
+        "exponent": "19",
         "discovered_by": "Pietro Cataldi",
         "date": "1588",
         "digits": "6"
     },
     {
         "rank": "8",
-        "prime": "2^31 - 1",
+        "exponent": "31",
         "discovered_by": "Leonhard Euler",
         "date": "1772",
         "digits": "10"
     },
     {
         "rank": "9",
-        "prime": "2^61 - 1",
+        "exponent": "61",
         "discovered_by": "Ivan Mikheevich Pervushin",
         "date": "1883",
         "digits": "19"
     },
     {
         "rank": "10",
-        "prime": "2^89 - 1",
+        "exponent": "89",
         "discovered_by": "R. E. Powers",
         "date": "1911 Jun",
         "digits": "27"
     },
     {
         "rank": "11",
-        "prime": "2^107 - 1",
+        "exponent": "107",
         "discovered_by": "R. E. Powers",
         "date": "1914 Jun 11",
         "digits": "33"
     },
     {
         "rank": "12",
-        "prime": "2^127 - 1",
+        "exponent": "127",
         "discovered_by": "Édouard Lucas",
         "date": "1876 Jan 10",
         "digits": "39"
     },
     {
         "rank": "13",
-        "prime": "2^521 - 1",
+        "exponent": "521",
         "discovered_by": "Raphael M. Robinson",
         "date": "1952 Jan 30",
         "digits": "157"
     },
     {
         "rank": "14",
-        "prime": "2^607 - 1",
+        "exponent": "607",
         "discovered_by": "Raphael M. Robinson",
         "date": "1952 Jan 30",
         "digits": "183"
     },
     {
         "rank": "15",
-        "prime": "2^1279 - 1",
+        "exponent": "1279",
         "discovered_by": "Raphael M. Robinson",
         "date": "1952 Jun 25",
         "digits": "386"
     },
     {
         "rank": "16",
-        "prime": "2^2203 - 1",
+        "exponent": "2203",
         "discovered_by": "Raphael M. Robinson",
         "date": "1952 Oct 07",
         "digits": "664"
     },
     {
         "rank": "17",
-        "prime": "2^2281 - 1",
+        "exponent": "2281",
         "discovered_by": "Raphael M. Robinson",
         "date": "1952 Oct 09",
         "digits": "687"
     },
     {
         "rank": "18",
-        "prime": "2^3217 - 1",
+        "exponent": "3217",
         "discovered_by": "Hans Riesel",
         "date": "1957 Sep 08",
         "digits": "969"
     },
     {
         "rank": "19",
-        "prime": "2^4253 - 1",
+        "exponent": "4253",
         "discovered_by": "Alexander Hurwitz",
         "date": "1961 Nov 03",
         "digits": "1281"
     },
     {
         "rank": "20",
-        "prime": "2^4423 - 1",
+        "exponent": "4423",
         "discovered_by": "Alexander Hurwitz",
         "date": "1961 Nov 03",
         "digits": "1332"
     },
     {
         "rank": "21",
-        "prime": "2^9689 - 1",
+        "exponent": "9689",
         "discovered_by": "Donald B. Gillies",
         "date": "1963 May 11",
         "digits": "2917"
     },
     {
         "rank": "22",
-        "prime": "2^9941 - 1",
+        "exponent": "9941",
         "discovered_by": "Donald B. Gillies",
         "date": "1963 May 16",
         "digits": "2993"
     },
     {
         "rank": "23",
-        "prime": "2^11213 - 1",
+        "exponent": "11213",
         "discovered_by": "Donald B. Gillies",
         "date": "1963 Jun 02",
         "digits": "3376"
     },
     {
         "rank": "24",
-        "prime": "2^19937 - 1",
+        "exponent": "19937",
         "discovered_by": "Bryant Tuckerman",
         "date": "1971 Mar 04",
         "digits": "6002"
     },
     {
         "rank": "25",
-        "prime": "2^21701 - 1",
+        "exponent": "21701",
         "discovered_by": "Landon Curt Noll & Laura Nickel",
         "date": "1978 Oct 30",
         "digits": "6533"
     },
     {
         "rank": "26",
-        "prime": "2^23209 - 1",
+        "exponent": "23209",
         "discovered_by": "Landon Curt Noll",
         "date": "1979 Feb 09",
         "digits": "6987"
     },
     {
         "rank": "27",
-        "prime": "2^44497 - 1",
+        "exponent": "44497",
         "discovered_by": "Harry Lewis Nelson & David Slowinski",
         "date": "1979 Apr 08",
         "digits": "13395"
     },
     {
         "rank": "28",
-        "prime": "2^86243 - 1",
+        "exponent": "86243",
         "discovered_by": "David Slowinski",
         "date": "1982 Sep 25",
         "digits": "25962"
     },
     {
         "rank": "29",
-        "prime": "2^110503 - 1",
+        "exponent": "110503",
         "discovered_by": "Walter Colquitt & Luke Welsh",
         "date": "1988 Jan 28",
         "digits": "33265"
     },
     {
         "rank": "30",
-        "prime": "2^132049 - 1",
+        "exponent": "132049",
         "discovered_by": "David Slowinski",
         "date": "1983 Sep 19",
         "digits": "39751"
     },
     {
         "rank": "31",
-        "prime": "2^216091 - 1",
+        "exponent": "216091",
         "discovered_by": "David Slowinski",
         "date": "1985 Sep 01",
         "digits": "65050"
     },
     {
         "rank": "32",
-        "prime": "2^756839 - 1",
+        "exponent": "756839",
         "discovered_by": "David Slowinski & Paul Gage",
         "date": "1992 Feb 19",
         "digits": "227832"
     },
     {
         "rank": "33",
-        "prime": "2^859433 - 1",
+        "exponent": "859433",
         "discovered_by": "David Slowinski & Paul Gage",
         "date": "1994 Jan 04",
         "digits": "258716"
     },
     {
         "rank": "34",
-        "prime": "2^1257787 - 1",
+        "exponent": "1257787",
         "discovered_by": "David Slowinski & Paul Gage",
         "date": "1996 Sep 03",
         "digits": "378632"
     },
     {
         "rank": "35",
-        "prime": "2^1398269 - 1",
+        "exponent": "1398269",
         "discovered_by": "GIMPS / Joel Armengaud",
         "date": "1996 Nov 13",
         "digits": "420921"
     },
     {
         "rank": "36",
-        "prime": "2^2976221 - 1",
+        "exponent": "2976221",
         "discovered_by": "GIMPS / Gordon Spence",
         "date": "1997 Aug 24",
         "digits": "895832"
     },
     {
         "rank": "37",
-        "prime": "2^3021377 - 1",
+        "exponent": "3021377",
         "discovered_by": "GIMPS / Roland Clarkson",
         "date": "1998 Jan 27",
         "digits": "909526"
     },
     {
         "rank": "38",
-        "prime": "2^6972593 - 1",
+        "exponent": "6972593",
         "discovered_by": "GIMPS / Nayan Hajratwala",
         "date": "1999 Jun 01",
         "digits": "2098960"
     },
     {
         "rank": "39",
-        "prime": "2^13466917 - 1",
+        "exponent": "13466917",
         "discovered_by": "GIMPS / Michael Cameron",
         "date": "2001 Nov 14",
         "digits": "4053946"
     },
     {
         "rank": "40",
-        "prime": "2^20996011 - 1",
+        "exponent": "20996011",
         "discovered_by": "GIMPS / Michael Shafer",
         "date": "2003 Nov 17",
         "digits": "6320430"
     },
     {
         "rank": "41",
-        "prime": "2^24036583 - 1",
+        "exponent": "24036583",
         "discovered_by": "GIMPS / Josh Findley",
         "date": "2004 May 15",
         "digits": "7235733"
     },
     {
         "rank": "42",
-        "prime": "2^25964951 - 1",
+        "exponent": "25964951",
         "discovered_by": "GIMPS / Martin Nowak",
         "date": "2005 Feb 18",
         "digits": "7816230"
     },
     {
         "rank": "43",
-        "prime": "2^30402457 - 1",
+        "exponent": "30402457",
         "discovered_by": "GIMPS / Curtis Cooper & Steven Boone",
         "date": "2005 Dec 15",
         "digits": "9152052"
     },
     {
         "rank": "44",
-        "prime": "2^32582657 - 1",
+        "exponent": "32582657",
         "discovered_by": "GIMPS / Curtis Cooper & Steven Boone",
         "date": "2006 Sep 04",
         "digits": "9808358"
     },
     {
         "rank": "45",
-        "prime": "2^37156667 - 1",
+        "exponent": "37156667",
         "discovered_by": "GIMPS / Hans-Michael Elvenich",
         "date": "2008 Sep 06",
         "digits": "11185272"
     },
     {
         "rank": "46",
-        "prime": "2^42643801 - 1",
+        "exponent": "42643801",
         "discovered_by": "GIMPS / Odd M. Strindmo",
         "date": "2009 Jun 04",
         "digits": "12837064"
     },
     {
         "rank": "47",
-        "prime": "2^43112609 - 1",
+        "exponent": "43112609",
         "discovered_by": "GIMPS / Edson Smith",
         "date": "2008 Aug 23",
         "digits": "12978189"
     },
     {
         "rank": "48",
-        "prime": "2^57885161 - 1",
+        "exponent": "57885161",
         "discovered_by": "GIMPS / Curtis Cooper",
         "date": "2013 Jan 25",
         "digits": "17425170"
     },
     {
         "rank": "49*",
-        "prime": "2^74207281 - 1",
+        "exponent": "74207281",
         "discovered_by": "GIMPS / Curtis Cooper",
         "date": "2016 Jan 07",
         "digits": "22338618",
@@ -345,7 +345,7 @@
     },
     {
         "rank": "50*",
-        "prime": "2^77232917 - 1",
+        "exponent": "77232917",
         "discovered_by": "GIMPS / Jon Pace",
         "date": "2017 Dec 26",
         "digits": "23249425",
@@ -353,7 +353,7 @@
     },
     {
         "rank": "51*",
-        "prime": "2^82589933 - 1",
+        "exponent": "82589933",
         "discovered_by": "GIMPS / Patrick Laroche",
         "date": "2018 Dec 07",
         "digits": "24862048",
@@ -361,7 +361,7 @@
     },
     {
         "rank": "52*",
-        "prime": "2^136279841 - 1",
+        "exponent": "136279841",
         "discovered_by": "GIMPS / Luke Durant",
         "date": "2024 Oct 12",
         "digits": "41024320",
