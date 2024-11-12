@@ -23,6 +23,13 @@
                     <a href="#" class="text-purple-200 hover:text-purple-400">Found Primes</a>
                 @endif
             </li>
+            <li>
+                @if (Route::has('mirrors'))
+                    <a href="{{ route('mirrors') }}" class="text-purple-200 hover:text-purple-400">Software Mirrors</a>
+                @else
+                    <a href="#" class="text-purple-200 hover:text-purple-400">Software Mirrors</a>
+                @endif
+            </li>
         </ul>
     </nav>
 </header>
