@@ -33,7 +33,7 @@
                     @endforeach
                 </tbody>
             </table>
-            <p class="text-sm text-purple-200 mt-4">* May be changed due to new discoveries.</p>
+            <p class="text-sm text-red-500 mt-4">* May be changed due to new discoveries.</p>
         </div>
     </section>
 @endsection
