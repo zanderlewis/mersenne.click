@@ -32,4 +32,7 @@
             </li>
         </ul>
     </nav>
+    <a href="https://github.com/zanderlewis/mersenne.click" target="_blank" class="absolute top-4 right-4 h-8 w-8">
+        <x-github />
+    </a>
 </header>
