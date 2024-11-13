@@ -8,6 +8,13 @@
             @endif
         </li>
         <li>
+            @if (Route::has('join'))
+                <a href="{{ route('join') }}" class="text-purple-200 hover:text-purple-400">Join</a>
+            @else
+                <a href="#" class="text-purple-200 hover:text-purple-400">Join</a>
+            @endif
+        </li>
+        <li>
             @if (Route::has('list'))
                 <a href="{{ route('list') }}" class="text-purple-200 hover:text-purple-400">Found Primes</a>
             @else

@@ -19,12 +19,18 @@
                     <tr class="clickable-row" data-href="https://t5k.org/">
                         <td class="py-2 px-4 border-b border-purple-500/20">t5k.org (PrimePages)</td>
                         <td class="py-2 px-4 border-b border-purple-500/20">https://t5k.org/</td>
-                        <td class="py-2 px-4 border-b border-purple-500/20">Information on prime numbers by Chris Caldwell (no longer maintained)</td>
+                        <td class="py-2 px-4 border-b border-purple-500/20">Information on prime numbers by Chris Caldwell
+                            (no longer maintained)</td>
                     </tr>
                     <tr class="clickable-row" data-href="https://www.mersenne.org">
                         <td class="py-2 px-4 border-b border-purple-500/20">mersenne.org</td>
                         <td class="py-2 px-4 border-b border-purple-500/20">https://mersenne.org/</td>
                         <td class="py-2 px-4 border-b border-purple-500/20">Home of GIMPS</td>
+                    </tr>
+                    <tr class="clickable-row" data-href="https://www.mersenne.ca">
+                        <td class="py-2 px-4 border-b border-purple-500/20">mersenne.ca</td>
+                        <td class="py-2 px-4 border-b border-purple-500/20">https://mersenne.ca/</td>
+                        <td class="py-2 px-4 border-b border-purple-500/20">Detailed GIMPS stats and software</td>
                     </tr>
                     <tr class="clickable-row" data-href="https://mersenneforum.org">
                         <td class="py-2 px-4 border-b border-purple-500/20">Mersenne Forums</td>
@@ -39,7 +45,8 @@
                     <tr class="clickable-row" data-href="https://www.durable-science.net">
                         <td class="py-2 px-4 border-b border-purple-500/20">Durable Science, LLC</td>
                         <td class="py-2 px-4 border-b border-purple-500/20">https://durable-science.net</td>
-                        <td class="py-2 px-4 border-b border-purple-500/20">Website of the finder of the world's largest prime</td>
+                        <td class="py-2 px-4 border-b border-purple-500/20">Website of the finder of the world's largest
+                            prime</td>
                     </tr>
                 </tbody>
             </table>
