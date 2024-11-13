@@ -36,6 +36,11 @@
                         <td class="py-2 px-4 border-b border-purple-500/20">https://github.com/primesearch</td>
                         <td class="py-2 px-4 border-b border-purple-500/20">Source Code for multiple GIMPS programs</td>
                     </tr>
+                    <tr class="clickable-row" data-href="https://www.durable-science.net">
+                        <td class="py-2 px-4 border-b border-purple-500/20">Durable Science, LLC</td>
+                        <td class="py-2 px-4 border-b border-purple-500/20">https://durable-science.net</td>
+                        <td class="py-2 px-4 border-b border-purple-500/20">Website of the finder of the world's largest prime</td>
+                    </tr>
                 </tbody>
             </table>
         </div>
