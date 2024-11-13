@@ -28,7 +28,7 @@
                 <span class="text-purple-300 text-xl font-semibold">Links</span>
                 <hr class="border-purple-500/20">
                 <div class="text-lg space-y-4">
-                    <a href="https://www.mersenne.org/report_exponent/?exp_lo={{ $request->n }}" class="block text-purple-400 hover:underline" target="_blank">mersenne.org (Common)</a>
+                    <a href="https://www.mersenne.org/report_exponent/?exp_lo={{ $request->n }}&full=1&swversion=1" class="block text-purple-400 hover:underline" target="_blank">mersenne.org (Common)</a>
                     <a href="https://www.mersenne.ca/exponent/{{ $request->n }}" class="block text-purple-400 hover:underline" target="_blank">mersenne.ca (Detailed)</a>
                 </div>
             </div>
