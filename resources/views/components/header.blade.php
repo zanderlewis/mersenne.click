@@ -7,31 +7,7 @@
             Centralized information on Mersenne Primes
         </p>
     </div>
-    <nav class="container mx-auto px-6">
-        <ul class="flex space-x-4">
-            <li>
-                @if (Route::has('index'))
-                    <a href="{{ route('index') }}" class="text-purple-200 hover:text-purple-400">Home</a>
-                @else
-                    <a href="#" class="text-purple-200 hover:text-purple-400">Home</a>
-                @endif
-            </li>
-            <li>
-                @if (Route::has('list'))
-                    <a href="{{ route('list') }}" class="text-purple-200 hover:text-purple-400">Found Primes</a>
-                @else
-                    <a href="#" class="text-purple-200 hover:text-purple-400">Found Primes</a>
-                @endif
-            </li>
-            <li>
-                @if (Route::has('mirrors'))
-                    <a href="{{ route('mirrors') }}" class="text-purple-200 hover:text-purple-400">Software Mirrors</a>
-                @else
-                    <a href="#" class="text-purple-200 hover:text-purple-400">Software Mirrors</a>
-                @endif
-            </li>
-        </ul>
-    </nav>
+    <x-nav />
     <a href="https://github.com/zanderlewis/mersenne.click" target="_blank" class="absolute top-4 right-4 h-8 w-8">
         <x-github />
     </a>
