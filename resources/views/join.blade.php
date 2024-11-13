@@ -6,7 +6,7 @@
     <!-- List of Join Links -->
     <section id="mersenne-primes" class="max-w-6xl mx-auto mb-16">
         <div class="p-6 rounded-xl bg-white/5 backdrop-blur-sm border border-purple-500/20">
-            <h2 class="text-3xl font-bold text-purple-100 mb-4">Joinxs</h2>
+            <h2 class="text-3xl font-bold text-purple-100 mb-4">Joins</h2>
             <table class="min-w-full bg-white/5 text-purple-100">
                 <thead>
                     <tr>
