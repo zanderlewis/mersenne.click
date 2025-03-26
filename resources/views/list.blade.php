@@ -3,59 +3,39 @@
 @section('title', 'List')
 
 @section('content')
-    <!-- Mersenne Prime Table -->
+    <!-- Mersenne Prime List -->
     <section id="mersenne-primes" class="max-w-6xl mx-auto mb-16">
         <div class="p-6 rounded-xl bg-white/5 backdrop-blur-sm border border-purple-500/20">
-            <h2 class="text-3xl font-bold text-purple-100 mb-4">Mersenne Primes</h2>
-            <table class="min-w-full bg-white/5 text-purple-100">
-                <thead>
-                    <tr>
-                        <th class="py-2 px-4 border-b border-purple-500/20">Rank</th>
-                        <th class="py-2 px-4 border-b border-purple-500/20">Prime</th>
-                        <th class="py-2 px-4 border-b border-purple-500/20">Digits</th>
-                        <th class="py-2 px-4 border-b border-purple-500/20">Discovered By</th>
-                        <th class="py-2 px-4 border-b border-purple-500/20">Year</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @foreach ($primes as $prime)
-                        <tr class="clickable-row" data-href="/?n={{ $prime['exponent'] }}">
-                            @if (isset($prime['maybe']))
-                                <td class="py-2 px-4 border-b text-red-500 border-purple-500/20 text-center">{{ $prime['rank'] }}</td>
-                            @else
-                                <td class="py-2 px-4 border-b border-purple-500/20 text-center">{{ $prime['rank'] }}</td>
-                            @endif
-                            <td class="py-2 px-4 border-b border-purple-500/20 text-center">2<sup>{{ number_format(intval($prime['exponent'])) }}</sup> - 1</td>
-                            <td class="py-2 px-4 border-b border-purple-500/20 text-center">{{ number_format(intval($prime['digits'])) }}</td>
-                            <td class="py-2 px-4 border-b border-purple-500/20 text-center">{{ $prime['discovered_by'] }}</td>
-                            <td class="py-2 px-4 border-b border-purple-500/20 text-center">
-                                @php
-                                    $date = str_replace('*', '<span class="text-red-500">*</span>', $prime['date']);
-                                @endphp
-                                {!! $date !!}
-                            </td>
-                        </tr>
-                    @endforeach
-                </tbody>
-            </table>
+            <h2 class="text-3xl font-bold text-purple-100 mb-8 text-center">Mersenne Primes</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                @foreach ($primes as $prime)
+                    <div class="p-6 bg-white/10 rounded-lg shadow-md border border-purple-500/20 hover:shadow-lg transition">
+                        <h3 class="text-xl font-semibold text-purple-100 mb-2">
+                            Rank: {{ $prime['rank'] }}
+                        </h3>
+                        <p class="text-purple-300 mb-2">
+                            <span class="font-semibold">Prime:</span> 2<sup>{{ number_format(intval($prime['exponent'])) }}</sup> - 1
+                        </p>
+                        <p class="text-purple-300 mb-2">
+                            <span class="font-semibold">Digits:</span> {{ number_format(intval($prime['digits'])) }}
+                        </p>
+                        <p class="text-purple-300 mb-2">
+                            <span class="font-semibold">Discovered By:</span> {{ $prime['discovered_by'] }}
+                        </p>
+                        <p class="text-purple-300">
+                            <span class="font-semibold">Year:</span> 
+                            @php
+                                $date = str_replace('*', '<span class="text-red-500">*</span>', $prime['date']);
+                            @endphp
+                            {!! $date !!}
+                        </p>
+                        <a href="/?n={{ $prime['exponent'] }}" class="block mt-4 text-purple-400 hover:text-purple-300 underline text-sm">
+                            View Details
+                        </a>
+                    </div>
+                @endforeach
+            </div>
             <p class="text-sm text-red-500 mt-4">* May be changed due to new discoveries.</p>
         </div>
     </section>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const rows = document.querySelectorAll('.clickable-row');
-            rows.forEach(row => {
-                row.addEventListener('click', function() {
-                    window.location.href = this.dataset.href;
-                });
-            });
-        });
-    </script>
-
-    <style>
-        .clickable-row {
-            cursor: pointer;
-        }
-    </style>
 @endsection

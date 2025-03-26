@@ -1,17 +1,13 @@
-<footer
-    class="py-8 bg-black bg-opacity-30 backdrop-filter backdrop-blur-lg border-t border-purple-500/40 rounded-t-2xl mt-auto">
-    <div class="container mx-auto px-6">
-        <p class="text-purple-200/70">&copy; 2024 Zander Lewis. All rights reserved.</p>
-    </div>
-    <div class="container mx-auto px-6 mt-8 py-4 border-t border-purple-500/40">
-        <a href="https://zanderlewis.dev" target="_blank">
-            <p class="text-purple-400">Zander's Personal Website</p>
-        </a>
-        <a href="https://mersenne.org" target="_blank">
-            <p class="text-purple-400">GIMPS (mersenne.org)</p>
-        </a>
-        <a href="https://mersenne.ca" target="_blank">
-            <p class="text-purple-400">Detailed GIMPS stats (mersenne.ca)</p>
-        </a>
-    </div>
+<footer class="py-4 bg-[#0a1128] text-purple-200 border-t border-purple-500/40 mt-auto">
+    <div class="container mx-auto px-6 text-center">
+        <!-- Copyright Section -->
+        <p class="mt-4 pb-2 text-xs text-purple-300/80">
+            &copy; 2024 Zander Lewis. All rights reserved.
+        </p>
+        <!-- Links Section -->
+        <div class="flex flex-col sm:flex-row justify-center items-center space-y-2 sm:space-y-0 sm:space-x-6 text-sm">
+            <a href="https://zanderlewis.dev" target="_blank" class="text-purple-400 hover:text-purple-300 transition">
+                Zander's Website
+            </a>
+        </div>
 </footer>
