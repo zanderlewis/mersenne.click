@@ -336,7 +336,7 @@
         "digits": "17425170"
     },
     {
-        "rank": "49*",
+        "rank": "49",
         "exponent": "74207281",
         "discovered_by": "GIMPS / Curtis Cooper",
         "date": "2016 Jan 07",
@@ -344,7 +344,7 @@
         "maybe": true
     },
     {
-        "rank": "50*",
+        "rank": "50",
         "exponent": "77232917",
         "discovered_by": "GIMPS / Jon Pace",
         "date": "2017 Dec 26",
@@ -352,7 +352,7 @@
         "maybe": true
     },
     {
-        "rank": "51*",
+        "rank": "51",
         "exponent": "82589933",
         "discovered_by": "GIMPS / Patrick Laroche",
         "date": "2018 Dec 07",
@@ -360,7 +360,7 @@
         "maybe": true
     },
     {
-        "rank": "52*",
+        "rank": "52",
         "exponent": "136279841",
         "discovered_by": "GIMPS / Luke Durant",
         "date": "2024 Oct 12",

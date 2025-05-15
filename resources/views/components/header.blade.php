@@ -1,12 +1,12 @@
 <div>
-    <header class="py-8 bg-[#0a1128] shadow-lg border-b border-purple-500/30 relative">
-        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between">
+    <header class="py-6 sm:py-8 bg-slate-800/40 backdrop-blur-lg shadow-lg border-b border-slate-700/50 sticky top-0 z-10">
+        <div class="container mx-auto px-4 sm:px-6 flex flex-col md:flex-row items-center justify-between">
             <!-- Logo and Title -->
             <div class="text-center md:text-left">
-                <h1 class="text-4xl md:text-5xl font-extrabold text-purple-400">
+                <h1 class="text-3xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-400">
                     mersenne.click
                 </h1>
-                <p class="mt-2 text-sm md:text-lg text-purple-300 font-light">
+                <p class="mt-1 text-sm md:text-base text-slate-300 font-light">
                     Centralized information on Mersenne Primes
                 </p>
             </div>
